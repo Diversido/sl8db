@@ -1,0 +1,251 @@
+{
+  "slateViewsList": [
+    {
+      "slateViewId": 0,
+      "alias": "slate-view-1",
+      "title": "Slate View 1"
+    },
+    {
+      "slateViewId": 1,
+      "alias": "slate-view-2",
+      "title": "Slate View 2"
+    },
+    {
+      "slateViewId": 2,
+      "alias": "slate-view-3",
+      "title": "Slate View 3"
+    }
+  ],
+  "slateViewSettings": [
+    {
+      "id": 0,
+      "slateViewId": "slate-view-1",
+      "alias": "slate-view-1",
+      "title": "Slate View 25",
+      "rules": [
+        {
+          "fieldId": "1",
+          "operatorId": "2",
+          "id": "_r0nl8ecyj",
+          "pattern": "10"
+        },
+        {
+          "fieldId": "6",
+          "operatorId": "1",
+          "pattern": "yo",
+          "id": "_mvyk8q8rq"
+        }
+      ],
+      "columns": [
+        "id",
+        "title",
+        "email",
+        "price",
+        "text"
+      ],
+      "rowCount": 10,
+      "logicOperator": "and"
+    },
+    {
+      "id": 1,
+      "slateViewId": "slate-view-2",
+      "alias": "slate-view-2",
+      "title": "Slate View 2",
+      "rules": [],
+      "columns": [
+        "id",
+        "title",
+        "email",
+        "words",
+        "boolean"
+      ],
+      "rowCount": 100
+    },
+    {
+      "id": 2,
+      "slateViewId": "slate-view-3",
+      "alias": "slate-view-3",
+      "title": "Slate View 3",
+      "rules": [],
+      "columns": [
+        "id",
+        "title",
+        "number",
+        "phone",
+        "url",
+        "department"
+      ],
+      "rowCount": 1000
+    }
+  ],
+  "fields": [
+    {
+      "id": "1",
+      "name": "device_name",
+      "title": "Device name",
+      "type": "text",
+      "operators": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "company",
+      "title": "Company",
+      "type": "text",
+      "operators": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "start_date",
+      "title": "Start date",
+      "type": "date",
+      "operators": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "preventive_maintainance",
+      "title": "Preventive Maintainance",
+      "type": "separator",
+      "operators": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "fields": [
+        {
+          "id": "5",
+          "name": "belt_size",
+          "title": "Belt size",
+          "type": "text",
+          "operators": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "6",
+          "name": "comments",
+          "title": "Comments",
+          "type": "journal",
+          "operators": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "7",
+          "name": "pm_check_list",
+          "title": "PM Check List",
+          "type": "records",
+          "operators": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "fields": [
+            {
+              "id": "8",
+              "name": "check_automatic_dampers",
+              "title": "Check Automatic Dampers",
+              "type": "boolean",
+              "operators": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ]
+            },
+            {
+              "id": "9",
+              "name": "check_belts",
+              "title": "Check Belts",
+              "type": "boolean",
+              "operators": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ]
+            },
+            {
+              "id": "10",
+              "name": "more_checks",
+              "title": "More checks",
+              "type": "records",
+              "fields": [
+                {
+                  "id": "11",
+                  "name": "check_01",
+                  "title": "Check 01",
+                  "type": "boolean"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "operators": [
+    {
+      "id": "0",
+      "title": "Equals",
+      "isPatternExist": true
+    },
+    {
+      "id": "1",
+      "title": "Doesn't Equal",
+      "isPatternExist": true
+    },
+    {
+      "id": "2",
+      "title": "Contains",
+      "isPatternExist": true
+    },
+    {
+      "id": "3",
+      "title": "Doesn't Contain",
+      "isPatternExist": true
+    },
+    {
+      "id": "4",
+      "title": "Field Exists on Slate",
+      "isPatternExist": false
+    },
+    {
+      "id": "5",
+      "title": "Field Doesn't Exist on Slate",
+      "isPatternExist": false
+    },
+    {
+      "id": "6",
+      "title": "Has a Value",
+      "isPatternExist": false
+    },
+    {
+      "id": "7",
+      "title": "Doesn't Have a Value",
+      "isPatternExist": false
+    }
+  ]
+}
