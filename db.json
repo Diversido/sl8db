@@ -22,6 +22,7 @@
       "slateViewId": "slate-view-1",
       "alias": "slate-view-1",
       "title": "Slate View 25",
+      "selectedFields": [],
       "rules": [
         {
           "fieldId": "1",
@@ -51,6 +52,7 @@
       "slateViewId": "slate-view-2",
       "alias": "slate-view-2",
       "title": "Slate View 2",
+      "selectedFields": [],
       "rules": [],
       "columns": [
         "id",
@@ -66,6 +68,7 @@
       "slateViewId": "slate-view-3",
       "alias": "slate-view-3",
       "title": "Slate View 3",
+      "selectedFields": [],
       "rules": [],
       "columns": [
         "id",
