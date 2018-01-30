@@ -45,7 +45,8 @@
         "text"
       ],
       "rowCount": 10,
-      "logicOperator": "and"
+      "logicOperator": "and",
+      "selectedFieldsIds": []
     },
     {
       "id": 1,
@@ -61,7 +62,8 @@
         "words",
         "boolean"
       ],
-      "rowCount": 100
+      "rowCount": 100,
+      "selectedFieldsIds": []
     },
     {
       "id": 2,
@@ -78,7 +80,8 @@
         "url",
         "department"
       ],
-      "rowCount": 1000
+      "rowCount": 1000,
+      "selectedFieldsIds": []
     }
   ],
   "fields": [
