@@ -22,6 +22,7 @@
       "slateViewId": "slate-view-1",
       "alias": "slate-view-1",
       "title": "Slate View 25",
+      "created": "Mon Mar 05 2018 11:20:49 GMT+0200"
       "selectedFields": [],
       "rules": [
         {
@@ -53,6 +54,7 @@
       "slateViewId": "slate-view-2",
       "alias": "slate-view-2",
       "title": "Slate View 2",
+      "created": "Mon Mar 04 2018 10:10:49 GMT+0200"
       "selectedFields": [],
       "rules": [],
       "columns": [
@@ -70,6 +72,7 @@
       "slateViewId": "slate-view-3",
       "alias": "slate-view-3",
       "title": "Slate View 3",
+      "created": "Mon Mar 03 2018 09:20:49 GMT+0200"
       "selectedFields": [],
       "rules": [],
       "columns": [
