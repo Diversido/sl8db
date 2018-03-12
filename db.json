@@ -64,7 +64,7 @@
         "words",
         "boolean"
       ],
-      "rowCount": 100,
+      "rowCount": 50,
       "selectedFieldsIds": []
     },
     {
@@ -83,7 +83,7 @@
         "url",
         "department"
       ],
-      "rowCount": 1000,
+      "rowCount": 100,
       "selectedFieldsIds": []
     }
   ],
